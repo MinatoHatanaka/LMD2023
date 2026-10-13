@@ -1,0 +1,58 @@
+{
+ "model": "SGDC",
+ "dataset": "authors",
+ "protocol": "cv10",
+ "fold": 5,
+ "n_train": 1600137,
+ "n_test": 177793,
+ "test_in_train_rate": 0.9652179782106157,
+ "fit_seconds": 75.48725210100383,
+ "predict_seconds": 0.21645840499695623,
+ "deviation": "Table 10 gives max_iter=5e-3 (not a valid iteration count); sklearn default max_iter=1000 used.",
+ "accuracy": 0.9844369575855068,
+ "auc_hard_macro": 0.9225120163163378,
+ "confusion_matrix": [
+  [
+   160342,
+   1,
+   821
+  ],
+  [
+   62,
+   10967,
+   45
+  ],
+  [
+   1838,
+   0,
+   3717
+  ]
+ ],
+ "precision_macro": 0.9330795758808125,
+ "recall_macro": 0.8847880820245848,
+ "f1_macro": 0.9066547746649501,
+ "precision_weighted": 0.9834748631683117,
+ "recall_weighted": 0.9844369575855068,
+ "f1_weighted": 0.9837319316805112,
+ "per_class": {
+  "0": {
+   "precision": 0.9882890990002589,
+   "recall": 0.9948996053709265,
+   "f1": 0.9915833348793777,
+   "support": 161164
+  },
+  "1": {
+   "precision": 0.99990882567469,
+   "recall": 0.9903377280115586,
+   "f1": 0.9951002631340169,
+   "support": 11074
+  },
+  "2": {
+   "precision": 0.8110408029674886,
+   "recall": 0.6691269126912691,
+   "f1": 0.7332807259814559,
+   "support": 5555
+  }
+ },
+ "auc_score_macro": 0.9970425720375057
+}

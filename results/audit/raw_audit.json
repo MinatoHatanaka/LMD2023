@@ -1,0 +1,244 @@
+{
+ "n_rows": 1752836,
+ "label_counts": {
+  "0": 1611619,
+  "1": 110710,
+  "2": 30507
+ },
+ "host_label": {
+  "LAPTOP-ROPR18AK": {
+   "0": 1513113,
+   "1": 8,
+   "2": 8
+  },
+  "WIN-J23NIGGP1Q6.sysmon_set.local": {
+   "0": 48786,
+   "1": 2,
+   "2": 26756
+  },
+  "WINDOWS10EVAL.stefania.local": {
+   "0": 49710,
+   "1": 355,
+   "2": 3340
+  },
+  "win-dc-128.attackrange.local": {
+   "0": 8,
+   "1": 78988,
+   "2": 395
+  },
+  "win-dc-469.attackrange.local": {
+   "0": 0,
+   "1": 60,
+   "2": 0
+  },
+  "win-host-987.attackrange.local": {
+   "0": 2,
+   "1": 31297,
+   "2": 8
+  }
+ },
+ "systemtime_unparsable": 0,
+ "time_range": {
+  "LAPTOP-ROPR18AK|0": [
+   "2022-10-10 10:35:33",
+   "2023-12-06 19:34:04.606075",
+   1513113
+  ],
+  "LAPTOP-ROPR18AK|1": [
+   "2023-12-06 19:39:05.648084",
+   "2023-12-06 19:39:58.060733",
+   8
+  ],
+  "LAPTOP-ROPR18AK|2": [
+   "2023-12-08 10:39:52.103747",
+   "2023-12-08 10:40:49.561224",
+   8
+  ],
+  "WIN-J23NIGGP1Q6.sysmon_set.local|0": [
+   "2022-10-10 10:35:42.454330",
+   "2022-11-14 19:13:44.449820",
+   48786
+  ],
+  "WIN-J23NIGGP1Q6.sysmon_set.local|1": [
+   "2023-12-06 19:39:11.363470",
+   "2023-12-06 19:40:03.604728",
+   2
+  ],
+  "WIN-J23NIGGP1Q6.sysmon_set.local|2": [
+   "2023-12-08 03:14:10.439851",
+   "2023-12-08 10:40:47.965210",
+   26756
+  ],
+  "WINDOWS10EVAL.stefania.local|0": [
+   "2022-10-10 10:36:05.710774",
+   "2022-10-11 00:25:09.745683",
+   49710
+  ],
+  "WINDOWS10EVAL.stefania.local|1": [
+   "2023-12-06 19:33:15.110944",
+   "2023-12-06 19:39:48.947342",
+   355
+  ],
+  "WINDOWS10EVAL.stefania.local|2": [
+   "2023-12-08 02:18:39.697032",
+   "2023-12-08 03:14:38.534903",
+   3340
+  ],
+  "win-dc-128.attackrange.local|0": [
+   "2022-10-10 10:35:49.812260",
+   "2022-10-10 10:36:39.509527",
+   8
+  ],
+  "win-dc-128.attackrange.local|1": [
+   "2023-12-06 19:39:12.363635",
+   "2023-12-08 02:19:07.061029",
+   78988
+  ],
+  "win-dc-128.attackrange.local|2": [
+   "2023-12-08 10:40:15.516475",
+   "2023-12-08 10:47:29.999963",
+   395
+  ],
+  "win-dc-469.attackrange.local|1": [
+   "2023-12-06 19:39:26.175560",
+   "2023-12-07 18:42:00.567539",
+   60
+  ],
+  "win-host-987.attackrange.local|0": [
+   "2022-10-10 10:36:38.179012",
+   "2022-10-10 10:36:42.970511",
+   2
+  ],
+  "win-host-987.attackrange.local|1": [
+   "2023-12-06 19:39:31.211429",
+   "2023-12-08 02:18:43.501765",
+   31297
+  ],
+  "win-host-987.attackrange.local|2": [
+   "2023-12-08 10:40:25.409021",
+   "2023-12-08 10:46:48.641054",
+   8
+  ]
+ },
+ "month_label": {
+  "2022-10": {
+   "0": 438211,
+   "1": 0,
+   "2": 0
+  },
+  "2022-11": {
+   "0": 438211,
+   "1": 0,
+   "2": 0
+  },
+  "2023-11": {
+   "0": 438211,
+   "1": 0,
+   "2": 0
+  },
+  "2023-12": {
+   "0": 296986,
+   "1": 110710,
+   "2": 30507
+  }
+ },
+ "top_images": {
+  "0": {
+   "System": 1351019,
+   "C:\\Users\\chrsm\\AppData\\Local\\Programs\\Opera\\opera.exe": 27807,
+   "C:\\Windows\\System32\\dns.exe": 21858,
+   "C:\\Users\\chrsm\\AppData\\Local\\Microsoft\\Teams\\current\\Teams.exe": 16652,
+   "C:\\Users\\chrsm\\AppData\\Local\\slack\\app-4.26.2\\slack.exe": 13332,
+   "C:\\Users\\chrsm\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe": 13047,
+   "C:\\Users\\chrsm\\AppData\\Local\\Programs\\Opera\\87.0.4390.45\\opera_autoupdate.exe": 11358,
+   "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.2203.5-0\\MpCmdRun.exe": 9960,
+   "C:\\Users\\chrsm\\AppData\\Local\\Viber\\Viber.exe": 9027,
+   "C:\\Windows\\system32\\lsass.exe": 7984,
+   "C:\\Windows\\system32\\CompatTelRunner.exe": 7683,
+   "C:\\Users\\chrsm\\AppData\\Local\\Programs\\Python\\Python39\\python.exe": 6376,
+   "C:\\Users\\chrsm\\AppData\\Roaming\\Foxit Software\\Addon\\Foxit PDF Reader\\FoxitPDFReaderUpdater.exe": 5969,
+   "C:\\Windows\\System32\\sc.exe": 5901,
+   "C:\\Windows\\System32\\cmd.exe": 4995
+  },
+  "1": {
+   "0": 31797,
+   "C:\\Program Files\\SplunkUniversalForwarder\\bin\\splunk-winevtlog.exe": 21904,
+   "C:\\Program Files\\SplunkUniversalForwarder\\bin\\splunk-powershell.exe": 12209,
+   "C:\\Program Files\\SplunkUniversalForwarder\\bin\\splunk-netmon.exe": 7434,
+   "C:\\Program Files\\SplunkUniversalForwarder\\bin\\splunk-winprintmon.exe": 6841,
+   "C:\\Program Files\\SplunkUniversalForwarder\\bin\\splunk-MonitorNoHandle.exe": 6326,
+   "C:\\Program Files\\SplunkUniversalForwarder\\bin\\splunk-regmon.exe": 6283,
+   "C:\\Program Files\\SplunkUniversalForwarder\\bin\\splunk-admon.exe": 6185,
+   "C:\\Program Files\\SplunkUniversalForwarder\\etc\\apps\\Splunk_TA_stream\\windows_x86_64\\bin\\streamfwd.exe": 3215,
+   "C:\\Windows\\System32\\winrs.exe": 1968,
+   "C:\\Windows\\System32\\svchost.exe": 862,
+   "C:\\Windows\\System32\\dns.exe": 734,
+   "C:\\Windows\\System32\\dllhost.exe": 588,
+   "C:\\Program Files\\SplunkUniversalForwarder\\bin\\splunkd.exe": 563,
+   "C:\\Windows\\system32\\lsass.exe": 480
+  },
+  "2": {
+   "C:\\Windows\\System32\\svchost.exe": 15574,
+   "C:\\Windows\\System32\\lsass.exe": 14384,
+   "0": 386,
+   "C:\\Users\\Administrator\\Desktop\\mimikatz_trunk\\x64\\mimikatz.exe": 88,
+   "C:\\Windows\\System32\\klist.exe": 48,
+   "C:\\Program Files\\SplunkUniversalForwarder\\bin\\splunk-winevtlog.exe": 9,
+   "C:\\Users\\chrsm\\AppData\\Local\\Temp\\_iu14D2N.tmp": 2,
+   "System": 2,
+   "C:\\Users\\chrsm\\AppData\\Roaming\\Foxit Software\\Addon\\Foxit PDF Reader\\FoxitPDFReaderUpdater.exe": 2,
+   "C:\\Program Files\\SplunkUniversalForwarder\\bin\\splunk-regmon.exe": 2,
+   "C:\\Program Files\\SplunkUniversalForwarder\\bin\\splunkd.exe": 2,
+   "C:\\Program Files\\SplunkUniversalForwarder\\etc\\apps\\Splunk_TA_stream\\windows_x86_64\\bin\\streamfwd.exe": 2,
+   "C:\\Program Files\\Mozilla Firefox\\firefox.exe": 2,
+   "C:\\Windows\\ADWS\\Microsoft.ActiveDirectory.WebServices.exe": 1,
+   "C:\\Windows\\system32\\DFSRs.exe": 1
+  }
+ },
+ "relabel_crosstab": {
+  "0": {
+   "0": 1611619,
+   "1": 0,
+   "2": 0
+  },
+  "1": {
+   "0": 109054,
+   "1": 370,
+   "2": 1286
+  },
+  "2": {
+   "0": 413,
+   "1": 0,
+   "2": 30094
+  }
+ },
+ "relabel_agreement": 0.936814967287299,
+ "dup_rows_selected_cols": 0,
+ "recordid_uniqueness": {
+  "LAPTOP-ROPR18AK": {
+   "size": 1513129,
+   "nunique": 4537
+  },
+  "WIN-J23NIGGP1Q6.sysmon_set.local": {
+   "size": 75544,
+   "nunique": 10857
+  },
+  "WINDOWS10EVAL.stefania.local": {
+   "size": 53405,
+   "nunique": 39215
+  },
+  "win-dc-128.attackrange.local": {
+   "size": 79391,
+   "nunique": 11495
+  },
+  "win-dc-469.attackrange.local": {
+   "size": 60,
+   "nunique": 10
+  },
+  "win-host-987.attackrange.local": {
+   "size": 31307,
+   "nunique": 4205
+  }
+ },
+ "dup_host_recordid": 1682517
+}

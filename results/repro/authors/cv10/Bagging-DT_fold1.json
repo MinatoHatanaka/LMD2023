@@ -1,0 +1,58 @@
+{
+ "model": "Bagging-DT",
+ "dataset": "authors",
+ "protocol": "cv10",
+ "fold": 1,
+ "n_train": 1600137,
+ "n_test": 177793,
+ "test_in_train_rate": 0.9665003684059552,
+ "fit_seconds": 5.777219843999774,
+ "predict_seconds": 1.6326687760010827,
+ "deviation": "Base estimators keep their own Table 10 settings; Bagging(CB) n_jobs=1 to bound memory.",
+ "accuracy": 0.9875135691506415,
+ "auc_hard_macro": 0.9240803850417935,
+ "confusion_matrix": [
+  [
+   160880,
+   2,
+   282
+  ],
+  [
+   65,
+   10961,
+   49
+  ],
+  [
+   1822,
+   0,
+   3732
+  ]
+ ],
+ "precision_macro": 0.9689191375753502,
+ "recall_macro": 0.8866308372055481,
+ "f1_macro": 0.9213866435958445,
+ "precision_weighted": 0.9869347860682346,
+ "recall_weighted": 0.9875135691506415,
+ "f1_weighted": 0.9866034015290686,
+ "per_class": {
+  "0": {
+   "precision": 0.988406740924143,
+   "recall": 0.9982378198605147,
+   "f1": 0.9932979554287796,
+   "support": 161164
+  },
+  "1": {
+   "precision": 0.9998175681838912,
+   "recall": 0.989706546275395,
+   "f1": 0.9947363644613849,
+   "support": 11075
+  },
+  "2": {
+   "precision": 0.9185331036180162,
+   "recall": 0.6719481454807346,
+   "f1": 0.7761256108973692,
+   "support": 5554
+  }
+ },
+ "auc_score_macro": 0.9971334192363591
+}

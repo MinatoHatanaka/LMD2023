@@ -1,0 +1,58 @@
+{
+ "model": "ET-noccp",
+ "dataset": "authors",
+ "protocol": "holdout",
+ "fold": 0,
+ "n_train": 1333447,
+ "n_test": 444483,
+ "test_in_train_rate": 0.9646780641779326,
+ "fit_seconds": 345.473874471998,
+ "predict_seconds": 13.546583782997914,
+ "deviation": null,
+ "accuracy": 0.9909017892697809,
+ "auc_hard_macro": 0.943049434157496,
+ "confusion_matrix": [
+  [
+   402478,
+   2,
+   430
+  ],
+  [
+   168,
+   27495,
+   23
+  ],
+  [
+   3421,
+   0,
+   10466
+  ]
+ ],
+ "precision_macro": 0.9832005020624058,
+ "recall_macro": 0.9152278345502171,
+ "f1_macro": 0.9451200590401884,
+ "precision_weighted": 0.9906875063036656,
+ "recall_weighted": 0.9909017892697809,
+ "f1_weighted": 0.990397284699164,
+ "per_class": {
+  "0": {
+   "precision": 0.9911615570829444,
+   "recall": 0.9989278002531583,
+   "f1": 0.9950295249432308,
+   "support": 402910
+  },
+  "1": {
+   "precision": 0.9999272647925228,
+   "recall": 0.993101206385899,
+   "f1": 0.996502546073972,
+   "support": 27686
+  },
+  "2": {
+   "precision": 0.9585126843117502,
+   "recall": 0.7536544970115936,
+   "f1": 0.8438281061033621,
+   "support": 13887
+  }
+ },
+ "auc_score_macro": 0.9991263274858374
+}

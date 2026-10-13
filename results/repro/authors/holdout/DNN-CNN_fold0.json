@@ -1,0 +1,80 @@
+{
+ "model": "DNN-CNN",
+ "dataset": "authors",
+ "protocol": "holdout",
+ "fold": 0,
+ "n_train": 1333447,
+ "n_test": 444483,
+ "epochs": 20,
+ "batch_size": 32,
+ "fit_seconds": 24651.101891193004,
+ "train_loss": [
+  0.06656870990991592,
+  0.057382963597774506,
+  0.05904097110033035,
+  0.060959555208683014,
+  0.06346055120229721,
+  0.06267015635967255,
+  0.06422127038240433,
+  0.1661003679037094,
+  0.3714568018913269,
+  0.37096545100212097,
+  0.3708499073982239,
+  0.37079375982284546,
+  0.37078651785850525,
+  0.3707693815231323,
+  0.3707581162452698,
+  0.3707520663738251,
+  0.3707423210144043,
+  0.37074074149131775,
+  0.37074780464172363,
+  0.3707367777824402
+ ],
+ "deviation": "Momentum is listed for Adam models (MLP 0.8, RNN 0.9); it has no Adam equivalent and is ignored. | Table 12 lists a Keras Embedding layer on continuous MinMax inputs, which Keras would truncate to integers; instead each feature is fed as one timestep of a (n_features, 1) sequence.",
+ "accuracy": 0.9064688638260631,
+ "auc_hard_macro": 0.5,
+ "confusion_matrix": [
+  [
+   402910,
+   0,
+   0
+  ],
+  [
+   27686,
+   0,
+   0
+  ],
+  [
+   13887,
+   0,
+   0
+  ]
+ ],
+ "precision_macro": 0.30215628794202104,
+ "recall_macro": 0.3333333333333333,
+ "f1_macro": 0.31698003956448384,
+ "precision_weighted": 0.8216858010861137,
+ "recall_weighted": 0.9064688638260631,
+ "f1_weighted": 0.8619976089586745,
+ "per_class": {
+  "0": {
+   "precision": 0.9064688638260631,
+   "recall": 1.0,
+   "f1": 0.9509401186934515,
+   "support": 402910
+  },
+  "1": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 27686
+  },
+  "2": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 13887
+  }
+ },
+ "auc_score_macro": 0.5
+}
