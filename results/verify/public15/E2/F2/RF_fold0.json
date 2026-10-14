@@ -1,0 +1,81 @@
+{
+ "model": "RF",
+ "dataset": "public15",
+ "experiment": "E2",
+ "featureset": "F2",
+ "fold": 0,
+ "fold_name": "LAPTOP-ROPR18AK",
+ "n_features": 69,
+ "n_train": 210171,
+ "n_test": 1513129,
+ "train_class_counts": [
+  77240,
+  106255,
+  26676
+ ],
+ "test_in_train_rate": 0.0,
+ "fit_seconds": 7.307310807053,
+ "predict_seconds": 14.954969235230237,
+ "deviation": null,
+ "accuracy": 0.8037272433480556,
+ "auc_hard_macro": 0.9345752289254398,
+ "confusion_matrix": [
+  [
+   1216127,
+   237965,
+   59021
+  ],
+  [
+   0,
+   8,
+   0
+  ],
+  [
+   0,
+   0,
+   8
+  ]
+ ],
+ "classes_present": [
+  0,
+  1,
+  2
+ ],
+ "f1_macro_present": 0.297173958316729,
+ "binary_f1": 0.00010773757819391418,
+ "binary_recall": 1.0,
+ "binary_fpr": 0.19627483208458324,
+ "precision_macro": 0.33338971462155587,
+ "recall_macro": 0.9345750559718056,
+ "f1_macro": 0.297173958316729,
+ "precision_weighted": 0.9999894267793102,
+ "recall_weighted": 0.8037272433480556,
+ "f1_weighted": 0.8911742045211836,
+ "per_class": {
+  "0": {
+   "precision": 1.0,
+   "recall": 0.8037251679154167,
+   "f1": 0.8911836262109598,
+   "support": 1513113
+  },
+  "1": {
+   "precision": 3.361725910082236e-05,
+   "recall": 1.0,
+   "f1": 6.723225803740635e-05,
+   "support": 8
+  },
+  "2": {
+   "precision": 0.0001355266055667553,
+   "recall": 1.0,
+   "f1": 0.00027101648118976236,
+   "support": 8
+  }
+ },
+ "auc_score_per_class": {
+  "0": 0.9983714038541736,
+  "1": 1.0,
+  "2": 1.0
+ },
+ "auc_score_macro": 0.999457134618058,
+ "binary_auc": 0.9983714038541736
+}

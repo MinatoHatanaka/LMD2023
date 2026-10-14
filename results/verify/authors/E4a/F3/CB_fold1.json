@@ -1,0 +1,81 @@
+{
+ "model": "CB",
+ "dataset": "authors",
+ "experiment": "E4a",
+ "featureset": "F3",
+ "fold": 1,
+ "fold_name": "1",
+ "n_features": 87,
+ "n_train": 10140,
+ "n_test": 2535,
+ "train_class_counts": [
+  7181,
+  284,
+  2675
+ ],
+ "test_in_train_rate": 0.0035502958579881655,
+ "fit_seconds": 0.18836004799231887,
+ "predict_seconds": 0.006978882011026144,
+ "deviation": "'CrossEntropy' is binary-only in CatBoost; loss_function='MultiClass' used for 3 classes.",
+ "accuracy": 0.8161735700197239,
+ "auc_hard_macro": 0.747642764226678,
+ "confusion_matrix": [
+  [
+   1761,
+   2,
+   32
+  ],
+  [
+   15,
+   51,
+   5
+  ],
+  [
+   412,
+   0,
+   257
+  ]
+ ],
+ "classes_present": [
+  0,
+  1,
+  2
+ ],
+ "f1_macro_present": 0.7468624813487224,
+ "binary_f1": 0.5758969641214351,
+ "binary_recall": 0.422972972972973,
+ "binary_fpr": 0.01894150417827298,
+ "precision_macro": 0.880419472584775,
+ "recall_macro": 0.6945079369603305,
+ "f1_macro": 0.7468624813487224,
+ "precision_weighted": 0.8275435686926218,
+ "recall_weighted": 0.8161735700197239,
+ "f1_weighted": 0.7900293457132963,
+ "per_class": {
+  "0": {
+   "precision": 0.8048446069469836,
+   "recall": 0.981058495821727,
+   "f1": 0.8842580969118755,
+   "support": 1795
+  },
+  "1": {
+   "precision": 0.9622641509433962,
+   "recall": 0.7183098591549296,
+   "f1": 0.8225806451612904,
+   "support": 71
+  },
+  "2": {
+   "precision": 0.8741496598639455,
+   "recall": 0.3841554559043348,
+   "f1": 0.5337487019730011,
+   "support": 669
+  }
+ },
+ "auc_score_per_class": {
+  "0": 0.7979963110743055,
+  "1": 0.9887764084507042,
+  "2": 0.7863787034767381
+ },
+ "auc_score_macro": 0.8577171410005827,
+ "binary_auc": 0.7979963110743056
+}

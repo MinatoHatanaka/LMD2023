@@ -1,0 +1,81 @@
+{
+ "model": "MAJ-time",
+ "dataset": "authors",
+ "experiment": "E1",
+ "featureset": "base",
+ "fold": 2,
+ "fold_name": "2",
+ "n_features": null,
+ "n_train": 1422344,
+ "n_test": 355586,
+ "train_class_counts": [
+  1289310,
+  88596,
+  44438
+ ],
+ "test_in_train_rate": 0.9644614804857334,
+ "fit_seconds": 0.35149812791496515,
+ "predict_seconds": 0.0,
+ "deviation": null,
+ "accuracy": 0.976534509232647,
+ "auc_hard_macro": 0.9395223493628335,
+ "confusion_matrix": [
+  [
+   316859,
+   3,
+   5465
+  ],
+  [
+   3,
+   21936,
+   211
+  ],
+  [
+   2662,
+   0,
+   8447
+  ]
+ ],
+ "classes_present": [
+  0,
+  1,
+  2
+ ],
+ "f1_macro_present": 0.8839845265906016,
+ "binary_f1": 0.882676245293634,
+ "binary_recall": 0.9198713130280526,
+ "binary_fpr": 0.016964138902418973,
+ "precision_macro": 0.8632083706170297,
+ "recall_macro": 0.9112496442328556,
+ "f1_macro": 0.8839845265906016,
+ "precision_weighted": 0.9798752258115372,
+ "recall_weighted": 0.976534509232647,
+ "f1_weighted": 0.9778835931901474,
+ "per_class": {
+  "0": {
+   "precision": 0.9916594684593333,
+   "recall": 0.983035861097581,
+   "f1": 0.9873288348853551,
+   "support": 322327
+  },
+  "1": {
+   "precision": 0.999863257213182,
+   "recall": 0.9903386004514673,
+   "f1": 0.9950781374038876,
+   "support": 22150
+  },
+  "2": {
+   "precision": 0.5981023861785739,
+   "recall": 0.7603744711495184,
+   "f1": 0.6695466074825618,
+   "support": 11109
+  }
+ },
+ "auc_score_per_class": {
+  "0": 0.995371305255723,
+  "1": 0.9997429470729788,
+  "2": 0.9869651490107926
+ },
+ "auc_score_macro": 0.9940264671131649,
+ "binary_auc": 0.9953713052557229
+}
