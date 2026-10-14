@@ -1,0 +1,81 @@
+{
+ "model": "DT",
+ "dataset": "public15",
+ "experiment": "E2",
+ "featureset": "F1",
+ "fold": 0,
+ "fold_name": "LAPTOP-ROPR18AK",
+ "n_features": 54,
+ "n_train": 210171,
+ "n_test": 1513129,
+ "train_class_counts": [
+  77240,
+  106255,
+  26676
+ ],
+ "test_in_train_rate": 0.0,
+ "fit_seconds": 0.14919103914871812,
+ "predict_seconds": 0.537883254699409,
+ "deviation": "max_features='sqrt' taken from the text (Sect. 5.1.1); Table 10 does not list it.",
+ "accuracy": 0.728705219449234,
+ "auc_hard_macro": 0.4095712140341497,
+ "confusion_matrix": [
+  [
+   1102625,
+   0,
+   410488
+  ],
+  [
+   8,
+   0,
+   0
+  ],
+  [
+   8,
+   0,
+   0
+  ]
+ ],
+ "classes_present": [
+  0,
+  1,
+  2
+ ],
+ "f1_macro_present": 0.28102158434368574,
+ "binary_f1": 0.0,
+ "binary_recall": 0.0,
+ "binary_fpr": 0.27128707505652255,
+ "precision_macro": 0.3333284964613747,
+ "recall_macro": 0.2429043083144925,
+ "f1_macro": 0.28102158434368574,
+ "precision_weighted": 0.999974915422598,
+ "recall_weighted": 0.728705219449234,
+ "f1_weighted": 0.8430558383674372,
+ "per_class": {
+  "0": {
+   "precision": 0.9999854893841241,
+   "recall": 0.7287129249434775,
+   "f1": 0.8430647530310572,
+   "support": 1513113
+  },
+  "1": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 8
+  },
+  "2": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 8
+  }
+ },
+ "auc_score_per_class": {
+  "0": 0.6201349882659127,
+  "1": 0.7977345747630229,
+  "2": 0.6198261325432666
+ },
+ "auc_score_macro": 0.6792318985240673,
+ "binary_auc": 0.6201349882659127
+}

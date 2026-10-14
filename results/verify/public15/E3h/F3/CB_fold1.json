@@ -1,0 +1,81 @@
+{
+ "model": "CB",
+ "dataset": "public15",
+ "experiment": "E3h",
+ "featureset": "F3",
+ "fold": 1,
+ "fold_name": "1",
+ "n_features": 72,
+ "n_train": 1381436,
+ "n_test": 341864,
+ "train_class_counts": [
+  1272506,
+  85532,
+  23398
+ ],
+ "test_in_train_rate": 0.0,
+ "fit_seconds": 7.855596307199448,
+ "predict_seconds": 0.42123701935634017,
+ "deviation": "'CrossEntropy' is binary-only in CatBoost; loss_function='MultiClass' used for 3 classes.",
+ "accuracy": 0.9999941497203566,
+ "auc_hard_macro": 0.9999979132858687,
+ "confusion_matrix": [
+  [
+   317845,
+   2,
+   0
+  ],
+  [
+   0,
+   20731,
+   0
+  ],
+  [
+   0,
+   0,
+   3286
+  ]
+ ],
+ "classes_present": [
+  0,
+  1,
+  2
+ ],
+ "f1_macro_present": 0.9999828730697109,
+ "binary_f1": 0.9999583645599134,
+ "binary_recall": 1.0,
+ "binary_fpr": 6.292335620597332e-06,
+ "precision_macro": 0.9999678451422049,
+ "recall_macro": 0.9999979025547931,
+ "f1_macro": 0.9999828730697109,
+ "precision_weighted": 0.9999941502847014,
+ "recall_weighted": 0.9999941497203566,
+ "f1_weighted": 0.9999941498522465,
+ "per_class": {
+  "0": {
+   "precision": 1.0,
+   "recall": 0.9999937076643794,
+   "f1": 0.9999968538222913,
+   "support": 317847
+  },
+  "1": {
+   "precision": 0.9999035354266146,
+   "recall": 1.0,
+   "f1": 0.9999517653868416,
+   "support": 20731
+  },
+  "2": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "support": 3286
+  }
+ },
+ "auc_score_per_class": {
+  "0": 0.9999968538321897,
+  "1": 0.9999968860254163,
+  "2": 1.0
+ },
+ "auc_score_macro": 0.9999979132858687,
+ "binary_auc": 0.9999968538321897
+}

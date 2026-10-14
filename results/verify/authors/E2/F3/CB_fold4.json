@@ -1,0 +1,79 @@
+{
+ "model": "CB",
+ "dataset": "authors",
+ "experiment": "E2",
+ "featureset": "F3",
+ "fold": 4,
+ "fold_name": "CompSTA5",
+ "n_features": 87,
+ "n_train": 1711300,
+ "n_test": 66630,
+ "train_class_counts": [
+  1611637,
+  44116,
+  55547
+ ],
+ "test_in_train_rate": 0.0,
+ "fit_seconds": 7.702008982189,
+ "predict_seconds": 0.0793235688470304,
+ "deviation": "'CrossEntropy' is binary-only in CatBoost; loss_function='MultiClass' used for 3 classes.",
+ "accuracy": 0.9998499174546001,
+ "auc_hard_macro": NaN,
+ "confusion_matrix": [
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   10,
+   66620,
+   0
+  ],
+  [
+   0,
+   0,
+   0
+  ]
+ ],
+ "classes_present": [
+  1
+ ],
+ "f1_macro_present": 0.9999249530956849,
+ "binary_f1": 0.9999249530956849,
+ "binary_recall": 0.9998499174546001,
+ "binary_fpr": NaN,
+ "precision_macro": 0.3333333333333333,
+ "recall_macro": 0.33328330581820004,
+ "f1_macro": 0.3333083176985616,
+ "precision_weighted": 1.0,
+ "recall_weighted": 0.9998499174546001,
+ "f1_weighted": 0.9999249530956847,
+ "per_class": {
+  "0": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 0
+  },
+  "1": {
+   "precision": 1.0,
+   "recall": 0.9998499174546001,
+   "f1": 0.9999249530956849,
+   "support": 66630
+  },
+  "2": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 0
+  }
+ },
+ "auc_score_per_class": {
+  "0": NaN,
+  "1": NaN,
+  "2": NaN
+ },
+ "auc_score_macro": NaN,
+ "binary_auc": NaN
+}

@@ -1,0 +1,80 @@
+{
+ "model": "RF",
+ "dataset": "authors",
+ "experiment": "E2",
+ "featureset": "F1",
+ "fold": 3,
+ "fold_name": "CompSTA3.1",
+ "n_features": 53,
+ "n_train": 1744114,
+ "n_test": 33816,
+ "train_class_counts": [
+  1611629,
+  76938,
+  55547
+ ],
+ "test_in_train_rate": 0.0,
+ "fit_seconds": 68.85632128501311,
+ "predict_seconds": 0.19941830821335316,
+ "deviation": null,
+ "accuracy": 0.9695706174591909,
+ "auc_hard_macro": 0.5482282300047325,
+ "confusion_matrix": [
+  [
+   1,
+   7,
+   0
+  ],
+  [
+   908,
+   32786,
+   114
+  ],
+  [
+   0,
+   0,
+   0
+  ]
+ ],
+ "classes_present": [
+  0,
+  1
+ ],
+ "f1_macro_present": 0.4933654033083001,
+ "binary_f1": 0.9862849434160234,
+ "binary_recall": 0.9731424514907714,
+ "binary_fpr": 0.875,
+ "precision_macro": 0.3336288832737755,
+ "recall_macro": 0.3649234895093863,
+ "f1_macro": 0.32891026887220004,
+ "precision_weighted": 0.9995502761647613,
+ "recall_weighted": 0.9695706174591909,
+ "f1_weighted": 0.9843173782330722,
+ "per_class": {
+  "0": {
+   "precision": 0.0011001100110011,
+   "recall": 0.125,
+   "f1": 0.0021810250817884407,
+   "support": 8
+  },
+  "1": {
+   "precision": 0.9997865398103254,
+   "recall": 0.9697704685281591,
+   "f1": 0.9845497815348118,
+   "support": 33808
+  },
+  "2": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 0
+  }
+ },
+ "auc_score_per_class": {
+  "0": 0.7820985417652626,
+  "1": 0.825176363582584,
+  "2": NaN
+ },
+ "auc_score_macro": 0.8036374526739233,
+ "binary_auc": 0.7820985417652625
+}

@@ -1,0 +1,79 @@
+{
+ "model": "DT",
+ "dataset": "authors",
+ "experiment": "E2",
+ "featureset": "F3",
+ "fold": 5,
+ "fold_name": "CompSTA6",
+ "n_features": 87,
+ "n_train": 1777140,
+ "n_test": 790,
+ "train_class_counts": [
+  1611637,
+  109956,
+  55547
+ ],
+ "test_in_train_rate": 0.0,
+ "fit_seconds": 1.547214230056852,
+ "predict_seconds": 0.0011656400747597218,
+ "deviation": "max_features='sqrt' taken from the text (Sect. 5.1.1); Table 10 does not list it.",
+ "accuracy": 1.0,
+ "auc_hard_macro": NaN,
+ "confusion_matrix": [
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   790,
+   0
+  ],
+  [
+   0,
+   0,
+   0
+  ]
+ ],
+ "classes_present": [
+  1
+ ],
+ "f1_macro_present": 1.0,
+ "binary_f1": 1.0,
+ "binary_recall": 1.0,
+ "binary_fpr": NaN,
+ "precision_macro": 0.3333333333333333,
+ "recall_macro": 0.3333333333333333,
+ "f1_macro": 0.3333333333333333,
+ "precision_weighted": 1.0,
+ "recall_weighted": 1.0,
+ "f1_weighted": 1.0,
+ "per_class": {
+  "0": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 0
+  },
+  "1": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "support": 790
+  },
+  "2": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 0
+  }
+ },
+ "auc_score_per_class": {
+  "0": NaN,
+  "1": NaN,
+  "2": NaN
+ },
+ "auc_score_macro": NaN,
+ "binary_auc": NaN
+}
